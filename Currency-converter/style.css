@@ -1,0 +1,66 @@
+:root{
+    --primary-color:#5fbaa7;
+   
+}
+
+
+h1{
+    color: var(--primary-color);
+}
+body{
+   background-color: aquamarine;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   height:90vh;
+}
+p{ 
+    text-align: center;
+}
+img{
+    width: 150px;
+   
+    /* background-color: chocolate; */
+    border-radius: 50%;
+}
+.swap{
+    color: white;
+    background-color: var(--primary-color);
+    border-radius: 5px;
+    font-size: 12px;
+    border: none;
+    padding: 5px 12px;
+
+}
+.currency{
+    padding: 40px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.currency select{
+    padding: 10px;
+    padding-right: 20px;
+    font-size: 16px;
+    border: 1px solid #d3d3d3;
+    background: transparent;
+    outline: none;
+
+}
+
+.currency input{
+    
+    font-size: 30px;
+    border: 1px solid #d3d3d3;
+   text-align: right;
+    outline: none;
+
+
+}
+.swap-rate-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
